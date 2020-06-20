@@ -1,0 +1,187 @@
+.acercaMio{
+    position: relative;
+    height: 1700px;
+    background-image: url('../images/acercaMio.png');
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+
+}
+#AcercaMio{
+    position: relative;
+    bottom: 450px;
+}
+.parrafoAcercaMio{
+    font-size: larger;
+}
+/* .limitacion{
+   
+   /*  max-height: 600px; 
+    flex-wrap: wrap;
+   
+}  */
+
+
+.contenidoAcercaMio{
+    position: absolute;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 950px;
+    max-height: 700px;
+
+    
+
+    
+}
+
+@media (min-width: 600px) and (max-width: 1022px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        max-height: 500px;
+    
+        
+    
+        
+    }
+  
+}
+
+@media (max-width: 1123px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 850px;
+        max-height: 700px;
+    
+        
+    
+        
+    }
+    
+}
+
+
+@media (max-width: 1050px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 700px;
+        max-height: 400px;
+    
+        
+    
+        
+    }
+    
+}
+
+
+@media (max-width: 945px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 600px;
+        max-height: 350px;
+    
+        
+    
+        
+    }
+    
+}
+
+@media (max-width: 937px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        max-height: 250px;
+    
+        
+    
+        
+    }
+    
+}
+
+
+@media (max-width: 638px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 400px;
+        max-height: 150px;
+    
+        
+    
+        
+    }
+    
+}
+
+
+@media (max-width: 525px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
+        max-height: 100px;
+    
+        
+    
+        
+    }
+    
+}
+
+@media (max-width: 410px){
+
+
+    .contenidoAcercaMio{
+        position: absolute;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 200px;
+        max-height: 80px;
+    
+        
+    
+        
+    }
+    
+}
+

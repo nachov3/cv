@@ -1,0 +1,91 @@
+.experiencia{
+    position: relative;
+    height: 100%;
+    min-height: 1700px;
+    background-image: url('../images/experiencia.png');
+    justify-content: center;
+    align-items: center;
+
+    
+
+   
+    
+}
+
+#Experiencia{
+    position: relative;
+    bottom: 450px;
+    
+}
+
+
+
+
+
+
+
+
+.contenidoExperiencia{
+
+    min-width: 100%;
+    min-height: 1700px;
+    font-weight: 900;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+@media (max-width: 1014px){
+
+
+    .contenidoExperiencia{
+
+        min-width: 100%;
+        max-height: 700px;
+        min-height: 2050px;
+        font-weight: 900;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    
+}
+
+
+
+
+.cardExperiencia{
+
+    width: 18rem;
+    text-align: center;
+    background-color:rgba(178, 189, 182, 0.9) !important;
+    margin: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 623px;
+    min-width: 288px;
+}
+
+.cardExperiencia:hover{
+
+box-shadow: 0px 0px 15px 15px #ffffffa2;
+
+
+}
+
+.tituloExperiencia{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: maroon;
+}
+
+.subtituloExperiencia{
+    color: chocolate;
+}
+
+.parrafoExperiencia{
+    font-family: Garamond; 
+    color: darkslategray;
+    font-size: large;
+}

@@ -1,0 +1,32 @@
+
+  .navHeader{
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+} 
+
+@media (max-width: 575px){
+  .navHeader{
+      align-items: center;
+      align-content: center;
+      height: 170px;
+  } 
+}
+
+.headerSitio{
+  background-image: url('../images/header.png'); 
+  height: 1200px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.perfil{
+ border-radius: 50px;
+ box-shadow: 5px 5px 10px black;
+}
+#contraer{
+  justify-content: space-around;
+
+
+}
